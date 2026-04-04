@@ -11,8 +11,8 @@ data = {
 df = pd.DataFrame(data)
 
 # Adding new row to df for V2
-# new_row = {'Name': 'V0', 'Age': 20, 'City': 'City1'}
-# df.loc[len(df.index)] = new_row
+new_row = {'Name': 'Mubashir Hussain', 'Age': 20, 'City': 'Taxila'}
+df.loc[len(df.index)] = new_row
 
 # # Adding new row to df for V3
 # new_row_v2 = {'Name': 'V3', 'Age': 30, 'City': 'City1'}
